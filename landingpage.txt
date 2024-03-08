@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutus</title>
+    <style>
+        .button{
+            border-radius: 20px;
+            text-align: cover;
+            color:blue;
+            border-color: brown;
+        }
+        .button a{
+            cursor:pointer;
+            color: rgb(11, 173, 124);
+            border: 15%;;
+            border-radius: 20px;
+            box-sizing:20px;
+        }
+        button a:hover{
+            transition-duration: 1.5s;
+            background-color: rgb(104, 18, 135);
+            color:gold;
+        }
+        body{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <nav style="position: relative; text-align: center;">
+        <button><a href="HOMPAGE.html" target-block="self" style="text-decoration: none;">HOMPAGE</a></button>
+    </nav>
+    <h1 style="font-weight: 500; font-style: italic;"><big>about us</big></h1>
+<p>our team have 30 years of expirence to teching new technolgies and also we are providing well trained workers to lead you nad also make you perfect to acheive your goals</p>  
+<p>we are providing new jobs for those are not get any jobs after we teached you</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            padding: 0;
+            border: 0;
+        }
+        .nav {
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .nav a{
+            position: center;
+            color: brown;
+            transition: 0.5ms;
+            cursor: pointer;
+        }
+        a:hover{
+            color: rgba(165, 5, 8, 0.868);
+            transition-duration:0.5s;
+        }
+        .contactme{
+            text-align: center;
+            font-size: large;
+            font-weight: 800;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .socialicons{
+            background-color: rgb(21, 179, 140);
+
+        }
+        .socialicons ul li{
+            align-items: center;
+            justify-content: center;
+            border-radius: 600px;
+            list-style: none;
+            list-style-position: inherit;
+        }
+        button{
+            border-radius: 100px;
+            border-color:purple ;
+            padding:5px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            background-color: violet;
+        }
+        button a{
+            outline:none;
+            align-items: center;
+            border:cover;
+            text-decoration: none;
+        }
+        button :hover{
+            background-color:rgb(195, 246, 10);
+            transition-duration: 0.5s;
+            font-display: cover;
+        }
+        .socialicons ul li a{
+            font-size: 100%;
+            font-display:cover;
+            text-decoration: none;
+        }
+        .footer{
+            background-color: black;
+        }
+        .designer{
+            letter-spacing: 1px;
+            text-size-adjust: 1.5px;
+        }
+        .button{
+            background-color: rgb(80, 240, 80);
+            border-color: brown;
+        }
+        .button a{
+            padding:1px;
+            cursor:pointer;
+            color: antiquewhite;
+        }
+        button a:hover{
+            transition-duration: 1.5s;
+            background-color: rgb(104, 18, 135);
+        }
+    </style>
+</head>
+<body>
+    <nav style="position: relative; text-align: center;" class="button">
+        <button><a href="HOMPAGE.html" target-block="self" style="text-decoration: none;">HOMPAGE</a></button>
+    </nav>
+<div class="contactme">
+    <p>for any quaries you can contact me:</p>
+    </div>
+    <center>
+    <div class="socialicons">
+    <ul>
+    <li><button><a href="#"><i>instagram</i></a></button></li>
+    <li><button><a href="#"><i>facebook</i></a></button></li>
+    <li><button><a href="#"><i>google+</i></a></button></i></li>
+    <li><button><a href="#"><i>twitter</i></a></button></li>
+    <li><button><a href="#"><i>email</i></a></button></li>
+    </ul>
+    <div class="footer">
+    <p style="color: whitesmoke; text-decoration-style:dotted;">copyright &copy;2022 designed by <span class="designer"><big>kavya</big></span>
+    </div>
+</div>
+    </center>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<style>
+    body{
+        background-color: rgba(11, 185, 8, 0.5);
+    }
+    .navlist ul{
+        display:flex;
+        justify-content:left;
+        background-color: black;
+    }
+    .navlist ul li{
+        list-style: none;
+        background-color: rgba(207, 172, 202, 0.5);
+        padding:30px;
+        opacity:1;
+        padding-right:100px; 
+    }
+    .navlist ul li a{
+        text-decoration:none;
+    }
+    .inputtype{
+        display: flex;
+        width:100%;
+        box-sizing: 800px;
+        letter-spacing: 1px;
+        position: 3000px;
+    }
+    .inputtype input{
+        border: none;
+        outline: none;
+    }
+    .inputtype button{
+        background-color:tomato;
+        outline:none;
+        border: none;
+        box-sizing: 100px;
+    }
+    .container{
+        padding:10px 50px;
+    }
+    .join{
+        top:15%;
+        bottom:19%;
+
+    }
+    .imgage{
+        width: 100vh;
+        float:right;
+    }
+    .joinform{
+        padding:0;
+        margin:0;
+        border:0;
+    }
+    .joinform ul li{
+        list-style: none;
+        text-align-last:10% ;
+    }
+    .joinform ul li button{
+        background-color: rgb(12, 195, 246);
+        border-radius: 20%;
+        float:left;
+        right:20%;
+        cursor:pointer;
+        transition-duration: 5s;
+    }
+    .joinform ul li button:hover{
+        transition-duration: 10s;
+        background-color: rgb(88, 4, 70);
+        color:rgb(168, 206, 15)
+    }
+    .join{
+        background-color: aquamarine;
+    }
+    .moredetails{
+        border-radius:20%;
+        box-sizing: 90px;
+        background-color: rgba(239, 155, 155, 0.773);
+        top:45%;
+    }
+    .moredetails:hover{
+        transition: 5s;
+        color:hwb(50 19% 8%);
+        background-color: black;
+    }
+    .new{
+        box-sizing: 20%;
+        background-color: blueviolet;
+    }
+    .new:hover{
+        background-color: black;
+        color:aqua;
+        transition:10s;
+    }
+</style>
+<body>
+    <div class="navlist">
+        <ul>
+        <li><a href="about us.html" target-block="self" style="color:aqua;">ABOUT US</a></li>
+        <li><a href="contact me.html" target-block="self" style="color:aqua">CONTACT ME</a></li>
+        <li><a href="portfolo.html" target-block="self" style="color:aqua">PORTFOLO</a></li>
+        <li><a href="index.html" target-block="self" style="color:aqua">LOGINPAGE</a></li>
+        <div class="container">
+            <form class="inputtype">
+                <input type="text" placeholder="what do you searching for?"></input>
+                <button class="search">SEARCH</button>
+            </form>
+        </div>
+        </ul>
+    </div> 
+    <h1 style="text-align:center;"><big>GEOGRAPHY</br>STARTUP!</big></h1>
+    <h2 style="text-align: left;font-weight: 500; font-style:italic; color:rgb(226, 43, 14);">JOIN FORM<h2>
+        <div class="joinform">
+     <ul>       
+        <li>firstname:<input type="text" placeholder="enter your first name"></li>
+        <li>lastname:<input type="text" placeholder="enter your last name"></li>
+        <li>emailadress:<input type="text" placeholder="enter your emailadress"></li>
+        <li>phonenumber:<input type="text" placeholder="enter your number"></li>
+        <li>alternative phonenumber:<input type="text" placeholder="enter your alternative number"></li>
+        <li>Enter your password:<input type="text" placeholder="create your password"></li>
+        <li><button class="submit">submit</button> 
+    </ul>
+    </div>
+    <h2 style="text-align: left; font-weight: 500; font-style:italic; color:rgb(226, 43, 14);">STARTUP DETAILS</h2>
+    <div class="join">
+    <img class="imgage" src="LOGO.png">
+    <p>geography startup provides the information of new software companies availble in the India and also gives the information of new technolgies in India.It is useful for joining the new companies in India  very quikly because the geography startup is already collabarated with many companies in abroad.so when you arrives this company you can get more details which is useful for your future.It also provides you knowledge of the company and also teaches you the new technolgiesfor uneducated and educted if they want.
+    <button class="moredetails"> click for more details</button></p>
+    <h2 style="text-align: left;font-weight: 500; font-style:italic; color:rgb(226, 43, 14);">TEACHING NEW TECHNOLOGIES</h2>
+    <p> the following details are given below which is useful for learning new technolgies</p>
+    <ol>
+    <li>application developer</li>
+    <li>full stack web development</li>
+    <li>software developer</li>
+    <li>machine developer</li>
+    <li style="list-style: none;"><button class="new">click for more details</button></li>
+    </ol>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body{
+            background:radial-gradient(circle,rgb(193, 129, 32)15%,rgba(106, 4, 79, 0.57)55%,rgb(67, 86, 45)67%);
+            background-repeat: no-repeat;
+            background-position: 100%;
+            perspective: 500px;
+            justify-content: center;
+            display:flexbox;
+            min-height:100dvh;
+            min-width:100dvh;
+   }
+        button{
+            background-color: rgb(16, 213, 244);
+        }
+        button:hover{
+          background-color  :rgba(85, 211, 12, 0.841) ;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <center>
+  <h1>welcome to landing page</h1>
+  <b>EMAIL</b>
+        </br>
+  <textarea inputmode="email" placeholder="email please" style="resize:none;"></textarea>
+</br>
+<b>PASSWORD</b>
+</br>
+  <textarea inputmode="password" placeholder="password please" style="resize:none;"></textarea>
+  </br>
+  <button name="signup here" value="signup here"><b><a href="HOMPAGE.html" target-blok="self" style="text-decoration: none;">signup here</a></b></button>
+  </center>
+    </form>  
+</body>
+</html>
+
+C:\Users\Admin\AppData\Local\Temp\a2ac0d68-e42f-4706-907a-7b42b7e1d414_completedcode[1].zip.414\completedcode\LOGO.png

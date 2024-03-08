@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protofolo</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class="body">
+    <div class="hero">
+        <nav class="navlist">
+            <a href="HOMPAGE.html" target-block="self" style="text-decoration: none "; class="b">HOMPAGE</a>
+            <nav class="list">
+                <img class=kavya src="kavya 2.jpg">
+                <ul class="list">
+                    <li><a href="#">MY SERVICES</a></li>
+                    <li><a href="#">PORTOFOLIO</a></li>
+                    <li><a href="#">HIRE ME</a></li>
+                    <li><a href="#">WORK EXPERIENCE</a></li>
+                </ul>
+        </nav>
+        <h1><span class="first" style=".first:hover{
+            transition:5s ;
+            transition-duration:3s ;
+            color:rgb(211, 12, 246);
+        }">I'M,</span><span class="second">KAVYA</span><span class="third" style=".thirdL:hover{
+    color:rgba(14, 211, 63, 0.564);
+    background-color:rgb(20, 7, 3);
+        }"> CHAMAKURI</span></h1>
+        <p class="p">Hi,everyone this is kavya.Here I am going to show you my details and also I provide a link to download my CV <a href="#">DOWNLOAD MY CV</a></p>
+    </div>
+</body>
+</html>
